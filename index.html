@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    Personal Details
+    <br>
+        <form action="submit_form.php" method="post">
+ 
+            <label for="Salution">Salution</label>
+
+            <br>
+            <select id="Salution" name="Salution" required>
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="none" selected>--None--</option>
+    
+            </select>
+      
+            <br>
+            <br>
+            <label for="firstName"> First Name:</label>
+            <input type="text" id="firstName" name="name" placeholder="abc" required>
+          
+            <br>
+            <label for="lastName"> Last Name:</label>
+            <input type="text" id="lastName" name="name" placeholder="abc" required>
+            <br>
+
+            <br>
+     
+            <br>
+            <label for="gender">Gender:</label>
+           
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+       
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        
+
+            
+          
+            <br>
+            <br>
+      
+           
+                <label for="email">Email:</label>
+                <input placeholder="abc@email.com" id="email" name="email" required>
+            <br>
+            <br>  <br>
+            <label for="dob">Date Of Birth </label>
+            <input  id="dob" name="dob" type="date">
+        <br>
+            <br>
+
+            <label for="address">Address:</label>
+
+            <br>
+            <textarea id="address" name="address" rows="4" required></textarea>
+       
+            <br>
+          
+         <br>
+         <br>
+  
+        <div >
+
+
+            <input type="submit" value="Submit">
+    
+        </div>
+
+      
+    </form>
+</body>
+</html>
